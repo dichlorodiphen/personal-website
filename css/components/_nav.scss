@@ -16,7 +16,7 @@
             transition: color 0.2s, translate 0.2s;
         }
 
-        &:hover {
+        &:hover, &:focus {
             color: var(--grey-500);
             translate: 0 -2px;
         }

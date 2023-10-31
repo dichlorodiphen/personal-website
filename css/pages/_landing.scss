@@ -1,0 +1,28 @@
+.introduction {
+    padding: 7rem 0;
+
+    &__subtext {
+        width: 100rem;
+        margin-bottom: 5rem;
+    }
+
+    &__email {
+        &:link,
+        &:visited {
+            color: inherit;
+
+            display: inline-block;
+            transition: color 0.2s, scale 0.2s;
+        }
+
+        &:hover,
+        &:focus {
+            color: var(--grey-300);
+            scale: 1.03;
+        }
+
+        &:active {
+            scale: 1;
+        }
+    }
+}
