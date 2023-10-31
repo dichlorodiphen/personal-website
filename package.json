@@ -1,0 +1,22 @@
+{
+    "name": "personal-website",
+    "version": "1.0.0",
+    "description": "David Young's personal website",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+
+        "compile:sass": "sass css/main.scss css/build/main.comp.css",
+        "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/build/main.comp.css -o css/build/main.prefix.css",
+        "compress:css": "sass --style=compressed css/build/main.prefix.css css/build/main.css",
+        "build:css": "npm-run-all compile:sass prefix:css compress:css"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.69.5",
+        "autoprefixer": "^10.4.16",
+        "npm-run-all": "^4.1.5",
+        "postcss-cli": "10.1.0"
+    }
+}
