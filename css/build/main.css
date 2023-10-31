@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap");
+:root {
+  --grey-100: #EBE8ED;
+  --grey-300: #D3CED7;
+  --grey-500: #9B8FA3;
+  --grey-700: #564C5C;
+  --grey-900: #1A171C;
+  --purple-100: #EDD4FE;
+  --purple-200: #DEB9F6;
+  --purple-300: #C28BE6;
+  --purple-400: #B063E4;
+  --purple-500: #9C38DF;
+  --purple-600: #6C2998;
+  --purple-700: #592080;
+  --purple-800: #3B0B5B;
+  --purple-900: #1E0231;
+  --black: #000;
+  --white: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--grey-900);
+}
+
+body {
+  margin: 0 20rem;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: var(--white);
+}/*# sourceMappingURL=main.css.map */
