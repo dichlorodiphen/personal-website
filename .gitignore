@@ -1,5 +1,6 @@
 /node_modules
 /build
+/css/build
 
 # misc
 .DS_Store
