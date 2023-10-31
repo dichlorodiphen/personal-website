@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 6.4rem;
+
+    padding: 7rem 0;
+
+    &__element {
+        &:link,
+        &:visited {
+            color: var(--grey-100);
+            font-size: 2.4rem;
+            text-decoration: none;
+            letter-spacing: 1.2px;
+
+            transition: color 0.2s, translate 0.2s;
+        }
+
+        &:hover {
+            color: var(--grey-500);
+            translate: 0 -2px;
+        }
+
+        &:active {
+            translate: 0 1px;
+        }
+    }
+}

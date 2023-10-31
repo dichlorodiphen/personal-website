@@ -43,4 +43,25 @@ body {
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
   color: var(--white);
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6.4rem;
+  padding: 7rem 0;
+}
+.nav__element:link, .nav__element:visited {
+  color: var(--grey-100);
+  font-size: 2.4rem;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  transition: color 0.2s, translate 0.2s;
+}
+.nav__element:hover {
+  color: var(--grey-500);
+  translate: 0 -2px;
+}
+.nav__element:active {
+  translate: 0 1px;
 }/*# sourceMappingURL=main.css.map */
